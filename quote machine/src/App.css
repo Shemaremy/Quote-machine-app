@@ -89,7 +89,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: cente;
   padding-top: 3%;
 }
 
@@ -128,3 +127,128 @@ body {
 #new-quote:active {
   transform: scale(0.1);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------RESPONSIVE------------------------------------------------*/
+/*---------------------------------RESPONSIVE------------------------------------------------*/
+/*---------------------------------RESPONSIVE------------------------------------------------*/
+
+
+@media (max-width: 270px){
+  #new-quote {
+    font-size: 8px !important;
+  }
+}
+
+@media (max-width: 340px){
+  .bott_i {
+    font-size: 8px !important;
+  }
+
+  #new-quote {
+    margin-left: 55%;
+  }
+
+  #text{
+    font-size: 15px !important;
+  }
+}
+
+
+@media (min-width: 0px) and (max-width: 510px){
+  #quote-box {
+    width: 80%;
+  }
+
+  #text{
+    font-size: 20px;
+  }
+
+  .top_i {
+    font-size: 23px;
+  }
+
+  #author {
+    font-size: 11px;
+  }
+  
+  .bott_i {
+    font-size: 12px;
+  }
+
+  #new-quote{
+    font-size: 10px;
+    padding: 3%;
+  }
+}
+
+
+@media (min-width: 511px) and (max-width: 614px){
+  #quote-box {
+    width: 70%;
+  }
+}
+
+
+@media (min-width: 615px) and (max-width: 750px){
+  #quote-box {
+    width: 60%;
+  }
+}
+
+
+@media (min-width: 751px) and (max-width: 860px){
+  #quote-box {
+    width: 50%;
+  }
+}
+
+
+
